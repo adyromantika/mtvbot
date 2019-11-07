@@ -7,3 +7,10 @@ This is a working bot to control my LG TV. Anyone can use it just by creating a 
 1. `TV_IP_ADDRESS`
 
 The bot must be able to connect to `TV_IP_ADDRESS`. You might want to port forward. I use a Raspberry Pi.
+
+At this moment, all it can do is change volume and send a toast message to be displayed on the TV.
+
+Commands:
+
+* `/vol <integer>`
+* `/echo <message>`
