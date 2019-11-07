@@ -1,0 +1,15 @@
+{
+  "name": "mytvbot",
+  "version": "1.0.0",
+  "description": "My personal TV bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ady Romantika",
+  "license": "ISC",
+  "dependencies": {
+    "lgtv": "^0.2.4",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
