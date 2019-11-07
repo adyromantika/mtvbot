@@ -5,8 +5,6 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 const restrictedChatId = process.env.RESTRICTED_CHAT_ID;
 const tv_ip_address = process.env.TV_IP_ADDRESS;
 
-var msgId = 0;
-
 const bot = new TelegramBot(token, {polling: true});
 
 function connect() {
